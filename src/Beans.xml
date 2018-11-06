@@ -12,5 +12,6 @@
    	destroy-method="destroy">
       <property name = "message" value = "Hello World!" />
    </bean>
-
+   
+	<bean class = "com.TutorialPoint.InitHelloWorld"></bean>
 </beans>
