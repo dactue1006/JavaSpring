@@ -8,10 +8,16 @@
    <bean 
    	id = "helloWorld" 
    	class = "com.TutorialPoint.HelloWorld" 
-   	init-method="init" 
-   	destroy-method="destroy">
-      <property name = "message" value = "Hello World!" />
+   	abstract = "true">
+      <property name = "message1" value = "Hello World!" />
+      <property name = "message2" value = "Hello second World" />
    </bean>
    
-	<bean class = "com.TutorialPoint.InitHelloWorld"></bean>
+   <bean
+   	id = "helloIndia"
+   	class = "com.TutorialPoint.HelloIndia"
+   	parent = "helloWorld">
+   	<property name = "message1" value = "Hello India" />
+   	<property name = "message3" value = "Namste India" />
+   </bean>
 </beans>
