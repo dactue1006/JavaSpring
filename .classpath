@@ -66,5 +66,7 @@
 	<classpathentry kind="lib" path="D:/spring-framework-5.1.2.RELEASE/libs/spring-websocket-5.1.2.RELEASE-javadoc.jar"/>
 	<classpathentry kind="lib" path="D:/spring-framework-5.1.2.RELEASE/libs/spring-websocket-5.1.2.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="D:/commons-logging-1.2-bin.zip"/>
+	<classpathentry kind="lib" path="D:/asm-all-3.3.1.jar.zip"/>
+	<classpathentry kind="lib" path="D:/cglib-2.2.jar.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
